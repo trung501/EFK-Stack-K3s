@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: kibana
-        image: docker.elastic.co/kibana/kibana:7.13.4
+        image: docker.elastic.co/kibana/kibana:7.11.1
         resources:
           limits:
             memory: "128Mi"
